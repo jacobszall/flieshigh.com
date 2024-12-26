@@ -3,53 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Landing Page</title>
+    <title>Flies High: Unique Stoner Accessories and Tools</title> 
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
+            background-color: #f4f4f4; 
+            color: #333; 
         }
+
         .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
             text-align: center;
-            background: white;
+            background-color: #e0f2f7; 
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #26a69a; 
+            margin-bottom: 10px; 
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .content {
+            background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #333;
+
+        .content img {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
         }
+
         p {
-            color: #666;
+            line-height: 1.6;
         }
+
         .button {
             display: inline-block;
             padding: 10px 20px;
             margin-top: 20px;
             font-size: 16px;
             color: white;
-            background-color: #007BFF;
+            background-color: #26a69a; /* Teal green */
             border: none;
             border-radius: 4px;
             cursor: pointer;
             text-decoration: none;
         }
+
         .button:hover {
-            background-color: #0056b3;
+            background-color: #2196f3; /* Slightly darker teal on hover */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Landing Page</h1>
-        <p>This is a simple landing page created using HTML and CSS.</p>
-        <a href="#" class="button">Get Started</a>
+        <header>
+            <div class="image-container">
+                <img src="your-image-here.jpg" alt="Image"> 
+            </div>
+            <h1>Flies High: Unique Stoner Accessories and Tools</h1> 
+        </header>
+
+        <div class="content">
+            <p>Welcome to Flies High, where craftsmanship meets passion in the world of custom-made smoking supplies. Our journey began with a simple mission: to provide unique, high-quality pieces that reflect individuality and artistry. Each of our products are specifically chosen by us to utilize with your favorite (legal) herb.</p>
+
+            <p>Our products are not just pieces; they are masterpieces meticulously crafted by skilled artisans. With a keen eye for detail and a passion for excellence, each item is handcrafted using premium quality materials sourced for their durability and performance. What truly sets us apart is our commitment to offering unique, custom designs that cater to individual tastes and preferences. Whether you're drawn to classic elegance or contemporary flair, our diverse range ensures there's something for everyone.</p>
+
+            <p>Ready to shop? Browse our complete collection on Etsy and find something you'll (or a friend will) love! <a href="https://www.etsy.com/shop/FliesHigh" class="button">Shop Now</a></p> 
+        </div>
     </div>
 </body>
 </html>
