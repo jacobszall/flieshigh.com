@@ -3,43 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flies High: Unique Stoner Accessories and Tools</title> 
+    <title>Flies High: Unique Stoner Accessories and Tools</title>
     <style>
+        /*  
+        1. Basic Page Setup:
+           - Sets a smooth and slightly playful font 
+           - Sets basic styles for the page body (background, text color, etc.)
+        */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
             margin: 0;
             padding: 0;
             background-color: #f4f4f4; 
             color: #333; 
+            line-height: 1.6; 
         }
 
+        /*  
+        2. Main Content Container:
+           - Sets the maximum width of the main content area
+           - Centers the content on the page
+           - Adds padding around the content
+        */
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
 
+        /*  
+        3. Header Styles:
+           - Styles the header section with a white background, green border, 
+             and centers the content.
+        */
         header {
             text-align: center;
-            background-color: #e0f2f7; 
+            background-color: #fff; 
             padding: 20px;
             margin-bottom: 20px;
-            border-radius: 8px;
+            border-bottom: 2px solid #26a69a; 
         }
 
+        /* 
+        4. Heading Styles:
+           - Styles the main heading (h1) with a dark gray color.
+        */
         h1 {
-            color: #26a69a; 
-            margin-bottom: 10px; 
+            color: #222; 
+            margin-bottom: 10px;
         }
 
+        /*  
+        5. Image Container Styles:
+           - Centers the logo image in the header.
+        */
         .image-container {
             text-align: center;
             margin-bottom: 20px;
         }
 
-        /* Apply the size to the image within .image-container */
-        .image-container img { 
-            width: 128px; 
+        /* 
+        6. Image Styles:
+           - Sets the size of the logo image.
+           - Applies general styles to images (max-width, responsive sizing).
+        */
+        .image-container img {
+            width: 128px;
             height: 128px;
         }
 
@@ -49,38 +78,57 @@
             border-radius: 8px;
         }
 
+        /*  
+        7. Main Content Area Styles:
+           - Styles the main content area with a white background, padding, 
+             rounded corners, and a subtle shadow.
+        */
         .content {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
         }
 
+        /*  
+        8. Content Image Styles:
+           - Styles images within the content area to float left and have margins.
+        */
         .content img {
             float: left;
             margin-right: 20px;
             margin-bottom: 20px;
         }
 
+        /*  
+        9. Paragraph Styles:
+           - Sets line height for better readability.
+        */
         p {
             line-height: 1.6;
         }
 
+        /*  
+        10. Button Styles:
+            - Styles the "Shop Now" button with colors, padding, 
+              rounded corners, hover effect, etc.
+        */
         .button {
             display: inline-block;
             padding: 10px 20px;
             margin-top: 20px;
             font-size: 16px;
             color: white;
-            background-color: #26a69a; /* Teal green */
+            background-color: #26a69a; 
             border: none;
             border-radius: 4px;
             cursor: pointer;
             text-decoration: none;
+            transition: background-color 0.3s ease; 
         }
 
         .button:hover {
-            background-color: #2196f3; /* Slightly darker teal on hover */
+            background-color: #000;  
         }
     </style>
 </head>
@@ -88,9 +136,9 @@
     <div class="container">
         <header>
             <div class="image-container">
-                <img src="https://github.com/jacobszall/flieshigh.com/blob/main/bug%20flies%20high%20black.png?raw=true" alt="Image"> 
+                <img src="https://github.com/jacobszall/flieshigh.com/blob/main/bug%20flies%20high%20black.png?raw=true" alt="Flies High Logo">
             </div>
-            <h1>Flies High: Unique Stoner Accessories and Tools</h1> 
+            <h1>Flies High: Unique Stoner Accessories and Tools</h1>
         </header>
 
         <div class="content">
@@ -98,7 +146,7 @@
 
             <p>Our products are not just pieces; they are masterpieces meticulously crafted by skilled artisans. With a keen eye for detail and a passion for excellence, each item is handcrafted using premium quality materials sourced for their durability and performance. What truly sets us apart is our commitment to offering unique, custom designs that cater to individual tastes and preferences. Whether you're drawn to classic elegance or contemporary flair, our diverse range ensures there's something for everyone.</p>
 
-            <p>Ready to shop? Browse our complete collection on Etsy and find something you'll (or a friend will) love! <a href="https://www.etsy.com/shop/FliesHigh" class="button">Shop Now</a></p> 
+            <p>Ready to shop? Browse our complete collection on Etsy and find something you'll (or a friend will) love! <a href="https://www.etsy.com/shop/FliesHigh" class="button">Shop Now</a></p>
         </div>
     </div>
 </body>
